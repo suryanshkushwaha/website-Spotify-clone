@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+</head>
+
+<body class="flex bg-black">
+    <aside id="left" class="flex border">
+        <img src="images/close.svg" alt="Close side-menu" class="invert" id="close">
+        <nav id="home" class="bg-grey border">
+            <div id="logo">
+                <img src="images/logo.svg" alt="Spotify logo" class="invert">
+            </div>
+            <ul>
+                <li>
+                    <img src="images/home.svg" alt="Home" class="invert">
+                    <span>Home</span>
+                </li>
+                <li id="search">
+                    <img src="images/search.svg" alt="search" class="invert">
+                    <span>Search</span>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="library" class="bg-grey border">
+            <div id="heading" class="flex">
+                <img class="invert" src="images/playlist.svg" alt="">
+                <h4> Your Library </h4>
+            </div>
+
+            <div class="song-list">
+                <ol class="flex">
+                    <li>
+
+                    </li>
+                </ol>
+            </div>
+
+            <div class="footer flex">
+                <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+                <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+            </div>
+        </div>
+    </aside>
+    <main id="right" class="flex border bg-grey">
+        <div id="navbar" class="flex items-center">
+            <nav class="flex items-center">
+                <div><img src="images/hamburger.svg" alt="Open Menu" class="invert" id="hamburger"></div>
+                <img src="images/left.svg" alt="Navigate left" id="left-nav">
+                <img src="images/right.svg" alt="Navigate right" id="right-nav">
+            </nav>
+            <div class="buttons">
+                <button id="sign-up">Sign up</button>
+                <button id="log-in">Log in</button>
+            </div>
+        </div>
+
+        <div class="spotify-playlist">
+            <h3>Spotify Playlist</h3>
+            <div class="card-container flex">
+
+            </div>
+
+
+            <div class="playbar flex justify-center items-center">
+                <div class="abovebar flex items-center">
+                    <div class="song-info">
+                    </div>
+
+                    <div class="songbuttons flex justify-center items-center">
+                        <img id="previous" src="images/prevsong.svg" alt="">
+                        <img id="play" src="images/play.svg" alt="">
+                        <img id="next" src="images/nextsong.svg" alt="">
+                    </div>
+
+                    <div class="time-vol flex items-center">
+                        <div class="song-time"></div>
+
+                        <div class="volume flex justify-center items-center">
+                            <img src="images/volume.svg" alt="">
+
+                            <div class="range">
+                                <input type="range" name="volume">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
