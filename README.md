@@ -8,7 +8,7 @@ To use this application on your computer, follow these steps:
 
 1. **Clone the Repository**: Clone this repository to your local machine.
    ```
-   git clone https://github.com/suryanshkushwaha/spotify-clone.git
+   git clone https://github.com/suryanshkushwaha/website-Spotify-clone.git
    ```
 
 2. **Set Up Song Folders**: Inside the project directory, navigate to the `songs` folder. Add your music folders here. Each music folder should contain the songs you want to play. Additionally, inside each music folder, add the following files:
