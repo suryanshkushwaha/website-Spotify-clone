@@ -2,6 +2,8 @@
 
 This project is a clone of Spotify's web player, allowing users to play music, navigate through albums, and control playback. It's a simple web application built with HTML, CSS, and JavaScript.
 
+Live Demo: [https://website-spotify-clone-sk.vercel.app](https://website-spotify-clone-sk.vercel.app)
+
 ## Getting Started
 
 To use this application on your computer, follow these steps:
